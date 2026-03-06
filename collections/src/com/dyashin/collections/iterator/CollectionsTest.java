@@ -1,0 +1,19 @@
+package com.dyashin.collections.iterator;
+
+import java.util.Iterator;
+
+public class CollectionsTest {
+
+	public static void main(String[] args) {
+		OurGenericList<Integer> list=new OurGenericList<Integer>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		
+		Iterator<Integer> iterator=list.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+			
+		}
+	}
+}
