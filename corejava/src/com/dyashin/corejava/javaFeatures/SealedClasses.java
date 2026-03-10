@@ -12,9 +12,9 @@ non-sealed class B extends A{
 final class C extends A{
 	
 }
-non-sealed class D extends B{
-	
-}
+//non-sealed class D extends B{
+//	
+//}
 public class SealedClasses {
 
 	public static void main(String[] args) {
